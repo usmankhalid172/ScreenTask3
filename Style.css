@@ -1,0 +1,945 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+.left img {
+    width: 75px;
+}
+
+.left span {
+    line-height: 19px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.mid {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 30px;
+    padding-top: 10px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    margin-right: 15%;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    color: rgb(94, 171, 197);
+    text-decoration: none;
+    padding: 14px 13px;
+    align-items: end;
+    justify-content: right;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: none;
+    color: rgb(211, 73, 73);
+    border-bottom: 2px solid red;
+    border-bottom-width: 3px;
+
+}
+
+.right {
+    position: absolute;
+    right: 75px;
+    top: 35px;
+
+
+}
+
+
+.right .btn {
+    color: rgb(94, 171, 197);
+    background-color: white;
+    border: solid 2px rgb(94, 171, 197);
+    border-radius: 33px;
+    cursor: pointer;
+    padding: 5px auto;
+    height: 40px;
+    width: 150px;
+}
+
+.right .btn:hover {
+    background-color: rgb(18, 71, 88);
+    color: white;
+
+}
+
+.slider {
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider .para {
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+
+.carousel-item {
+    text-align: center;
+
+}
+
+.carousel img {
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.image-row {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(235, 230, 230);
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+
+.image-container img {
+    padding: 15px;
+    border: 1px solid rgb(238, 229, 229);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.image-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image-container h6 .parad {
+
+    margin: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.image-container .parad {
+    font-size: 15px;
+    padding: 0px 20px;
+    color: gray;
+}
+
+.image-container h6 {
+    padding-top: 20px;
+}
+
+.container {
+    margin-top: 70px;
+    padding: 0px 20px;
+    width: auto;
+}
+
+.leftside {
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftside img {
+    display: flex;
+    width: 500px;
+    height: 650px;
+}
+
+.rightside {
+    padding-top: 30px;
+    padding-left: 20px;
+    display: block;
+}
+
+.rightside h5 {
+    color: rgb(94, 171, 197);
+
+}
+
+.rightside h6 .paragragh {
+    justify-content: left;
+    text-align: left;
+}
+
+.rightside img {
+    width: 35px;
+}
+
+.rightside p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+
+
+.form-container {
+    margin: auto;
+    padding: 20px 100px;
+}
+
+.row .contactus {
+    margin: auto;
+    width: 30px;
+    display: inline-block;
+
+}
+
+.contact {
+    border-top: 1px solid rgb(235, 230, 230);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.desc {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+.desc p {
+    padding-top: 15px;
+    flex: 1;
+}
+
+.col-md-4 {
+    padding-left: 150px;
+}
+
+.contactus p {
+    flex: 1;
+}
+
+.socialmedia {
+    display: flex;
+    margin: auto;
+
+}
+
+.contact .barr {
+    width: 20px;
+    padding-top: 0px;
+    margin-bottom: auto;
+}
+
+.contact .stay {
+    color: rgb(94, 171, 197);
+}
+
+.socialmedia img {
+    margin-right: 10px;
+    padding: 20px 0;
+    width: 35px;
+    justify-content: space-between;
+
+}
+
+
+form {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 15px 20px;
+    margin: 15px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 45px;
+}
+
+textarea {
+    height: 165px;
+
+}
+
+.mybutton {
+    justify-content: end;
+    align-items: end;
+
+
+}
+
+.mybutton .btn {
+
+    background-color: #2370d4;
+    color: white;
+    padding: 15px 25px;
+    margin: 5px 0;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.lefthalf {
+    float: left;
+    width: 50%;
+}
+
+.righthalf {
+    float: right;
+    width: 50%;
+}
+
+.contact {
+    margin-bottom: 200px;
+    padding-bottom: 200px;
+}
+
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 25px;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width:1202px) {
+
+    .leftside img {
+        width: 100%;
+        height: auto;
+    }
+
+    .rightside {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:1161px) and (min-width:900px) {
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 65px;
+    }
+
+    .left span {
+        line-height: 12px;
+        font-size: 25px;
+        padding-bottom: 12px;
+    }
+
+    .mid {
+
+        display: inline-block;
+        width: 45%;
+        margin: 20px 20px;
+        padding-top: 0px;
+        font-size: 18px;
+        margin-left: 42%;
+        margin-bottom: 10px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+
+    }
+
+    .navbar li a {
+        padding: 24px 15px;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: block;
+
+    }
+
+
+    .right .btn {
+        color: rgb(94, 171, 197);
+        background-color: white;
+        border: solid 2px rgb(94, 171, 197);
+        border-radius: 33px;
+        cursor: pointer;
+        padding: 5px auto;
+        height: 40px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:600px) {
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 40px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 65px;
+    }
+
+    .left span {
+        line-height: 12px;
+        font-size: 25px;
+        padding-bottom: 12px;
+    }
+
+    .mid {
+
+        display: inline-block;
+        width: 45%;
+        margin: 20px 10px;
+        padding-top: 0px;
+        font-size: 10px;
+        margin-left: 35%;
+        margin-bottom: 10px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 12px;
+        margin: 0px 1px;
+
+    }
+
+    .navbar li a {
+        padding: 34px 13px;
+        align-items: end;
+        justify-content: right;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+
+    }
+
+
+    .right .btn {
+        color: rgb(94, 171, 197);
+        background-color: white;
+        border: solid 2px rgb(94, 171, 197);
+        border-radius: 33px;
+        cursor: pointer;
+        padding: 2px auto;
+        height: 30px;
+        width: 110px;
+        font-size: 10px;
+    }
+
+    .slider .para {
+        font-size: 10px;
+    }
+
+    .image-row {
+        padding: 50px;
+        display: block;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(235, 230, 230);
+    }
+
+    .image-container {
+        flex: 1;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+
+    .image-container img {
+        padding: 15px;
+        border: 1px solid rgb(238, 229, 229);
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }
+
+    .image-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2px;
+        padding-bottom: 20px;
+    }
+
+    .image-container h6 .parad {
+
+        margin: 5px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .image-container .parad {
+        font-size: 15px;
+        padding: 0px 110px;
+        color: gray;
+
+    }
+
+    .image-container h6 {
+        padding-top: 20px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+
+
+    .leftside {
+        margin-bottom: 20px;
+        margin-right: 200px;
+    }
+
+    .leftside img {
+        width: 700px;
+        height: 800px;
+
+    }
+
+
+    .rightside {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 0px;
+        display: block;
+    }
+
+    .rightside h3 {
+        font-size: 40px;
+    }
+
+    .rightside h6 {
+        font-size: 30px;
+    }
+
+    .rightside h5 {
+        font-size: 28px;
+    }
+
+    .rightside .paragraph {
+        font-size: 24px;
+    }
+
+    .rightside h6,
+    .rightside .paragraph {
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width:771px) and (min-width:600px) {
+    .contact h6 {
+        font-size: 40px;
+    }
+
+    .contact h2 {
+        font-size: 80px;
+    }
+
+    .contact .barr {
+        width: 50px;
+    }
+
+    .desc .contactus {
+        margin-left: 0px;
+        margin-bottom: 25px;
+        width: 80px;
+    }
+
+    .desc p {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .socialmedia img {
+        width: 80px;
+        margin: 0px 10px;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 45px;
+    }
+
+    .left span {
+        line-height: 12px;
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+
+    .mid {
+
+        display: inline-block;
+        width: 45%;
+        margin: 15px 1px;
+        padding-top: 0px;
+        font-size: 7px;
+        margin-left: 35%;
+        margin-bottom: 1px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 12px;
+        margin: 0px 1px;
+
+    }
+
+    .navbar li a {
+        padding: 34px 13px;
+        align-items: end;
+        justify-content: right;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 7px;
+        top: 20px;
+        display: block;
+
+    }
+
+
+    .right .btn {
+        color: rgb(94, 171, 197);
+        background-color: white;
+        border: solid 2px rgb(94, 171, 197);
+        border-radius: 33px;
+        cursor: pointer;
+        padding: 1px auto;
+        padding-left: 12px;
+        height: 28px;
+        width: 80px;
+        font-size: 9px;
+    }
+
+    .slider .para {
+        font-size: 7px;
+    }
+
+    .image-row {
+        padding: 50px;
+        display: block;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(235, 230, 230);
+    }
+
+    .image-container {
+        flex: 1;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+
+    .image-container img {
+        padding: 15px;
+        border: 1px solid rgb(238, 229, 229);
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .image-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2px;
+        padding-bottom: 20px;
+    }
+
+    .image-container h6 .parad {
+
+        margin: 5px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .image-container .parad {
+        font-size: 15px;
+        padding: 0px 50px;
+        color: gray;
+
+    }
+
+    .col-md-4 {
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+
+    .image-container h6 {
+        padding-top: 10px;
+    }
+
+    .contact h6 {
+        font-size: 20px;
+    }
+
+    .contact h2 {
+        font-size: 40px;
+    }
+
+    .contact .barr {
+        width: 20px;
+    }
+
+    .desc .contactus {
+        margin-left: 0px;
+        margin-bottom: 25px;
+        width: 40px;
+    }
+
+    .desc p {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .socialmedia img {
+        width: 40px;
+        margin: 0px 5px;
+    }
+
+
+    form {
+
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 90%;
+        padding: 15px 20px;
+        margin: 15px 0;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        height: 45px;
+    }
+
+    textarea {
+        height: 165px;
+
+    }
+
+    .mybutton {
+        justify-content: end;
+        align-items: end;
+
+
+    }
+
+    .mybutton .btn {
+
+        background-color: #2370d4;
+        color: white;
+        padding: 15px 25px;
+        margin: 5px 0;
+        text-align: center;
+        justify-content: center;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+
+    }
+
+
+}
+
+
+
+html 
+<div class="reviews">
+            <div><img src="" alt=""></div>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div class="reviews">
+            <div><img src="" alt=""></div>
+            <h3></h3>
+            <p></p>
+        </div>
+        <div class="reviews">
+            <div><img src="" alt=""></div>
+            <h3></h3>
+            <p></p>
+        </div>
+
+
+
+
+
+
+ <div class="container-fluid seventhelement">
+        <h1 class="heading2">What the say about us</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="slide">
+                <div class="item">
+                    <div class="imagedetails"><img src="Assets/google.png" alt="">
+                        <h3>Lauren Andrews</h3>
+                        <p>amazing facts</p>
+                    </div>
+                    <div class="details">
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <p>Its Amazing Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis distinctio velit
+                            adipisci vel obcaecati tempora delectus dolorem modi molestiae id.</p>
+                    </div>
+                </div>
+                <div class="item">Slide 1 - Div 2</div>
+                <div class="item">Slide 1 - Div 3</div>
+            </div>
+            <div class="slide">
+                <div class="item">Slide 2 - Div 1</div>
+                <div class="item">Slide 2 - Div 2</div>
+                <div class="item">Slide 2 - Div 3</div>
+            </div>
+            <div class="slide">
+                <div class="item">Slide 3 - Div 1</div>
+                <div class="item">Slide 3 - Div 2</div>
+                <div class="item">Slide 3 - Div 3</div>
+            </div>
+            <div class="slide">
+                <div class="item">Slide 4 - Div 1</div>
+                <div class="item">Slide 4 - Div 2</div>
+                <div class="item">Slide 4 - Div 3</div>
+            </div>
+        </div>
+
+
+    </div>
